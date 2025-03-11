@@ -1,0 +1,28 @@
+# Build files
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs & Database
+*.log
+*.ldb
+
+# IDE & Editor files
+.vscode/
+*.vs/
+.idea/
+*.DS_Store
+
+# Secrets & Config (if using cloud)
+appsettings.json
+appsettings.Development.json
+
+# MAUI-specific files
+platforms/
+Resources/Raw/*
+Resources/Fonts/*
