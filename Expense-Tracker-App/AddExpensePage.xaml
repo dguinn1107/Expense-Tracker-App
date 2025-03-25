@@ -1,0 +1,30 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExpenseTracker.Views.AddExpensePage"
+             Title="Add Expense">
+
+    <VerticalStackLayout Spacing="20" Padding="30">
+
+        <Label Text="Add New Expense" FontSize="24" TextColor="Black" />
+
+        <Entry x:Name="AmountEntry" Placeholder="Amount" Keyboard="Numeric" />
+
+        <Picker x:Name="CategoryPicker" Title="Select Category">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Food</x:String>
+                    <x:String>Rent</x:String>
+                    <x:String>Shopping</x:String>
+                    <x:String>Entertainment</x:String>
+                    <x:String>Other</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
+        <DatePicker x:Name="DatePicker" />
+
+        <Button Text="Save Expense" Clicked="OnSaveClicked" />
+
+    </VerticalStackLayout>
+
+</ContentPage>

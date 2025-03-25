@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+    
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExpenseTracker.Views.ReportsPage"
+             Title="Reports">
+
+    <VerticalStackLayout Spacing="20" Padding="30">
+
+        <Label Text="Expense Summary" FontSize="24" TextColor="Black" />
+
+        <Label x:Name="TotalExpensesLabel" 
+               Text="Total Expenses: $0" 
+               FontSize="18" 
+               TextColor="Gray" />
+
+        <Button Text="Refresh Report" Clicked="OnRefreshClicked" />
+
+    </VerticalStackLayout>
+
+</ContentPage>
