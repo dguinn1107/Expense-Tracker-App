@@ -1,4 +1,4 @@
-﻿namespace Expense_Tracker_App
+﻿namespace ExpenseTracker
 {
     public partial class AppShell : Shell
     {
