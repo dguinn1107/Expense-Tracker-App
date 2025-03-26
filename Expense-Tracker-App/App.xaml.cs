@@ -1,4 +1,4 @@
-﻿namespace ExpenseTracker
+﻿namespace Expense_Tracker_App
 {
     public partial class App : Application
     {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace ExpenseTracker;
+namespace Expense_Tracker_App;
 
 public static class MauiProgram
 {
@@ -21,6 +21,4 @@ public static class MauiProgram
 
 		return builder.Build();
 	}
-
-
 }
